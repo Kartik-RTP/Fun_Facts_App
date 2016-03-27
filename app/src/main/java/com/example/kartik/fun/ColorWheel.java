@@ -9,7 +9,7 @@ import java.util.Random;
  */
 public class ColorWheel {
     //Member variables
-    private String[] mColors = {
+     String[] mColors = {
             "#39add1", // light blue
             "#3079ab", // dark blue
             "#c25975", // mauve
@@ -27,7 +27,7 @@ public class ColorWheel {
 
     //Methods
     public int getColor(){
-        String color = "";
+        String color = "#51b46d";
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(mColors.length);
         color = mColors[randomNumber];
